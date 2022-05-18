@@ -1,0 +1,28 @@
+th {
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.text {
+    color: blue;
+    text-align: right;
+}
+
+.checkbox {
+
+}
+
+table {
+    width: 100%;
+}
+
+#reset {
+    text-align: left;
+}
+div {
+    width: 350px;
+    padding: 5px;
+    border: 15px solid aqua;
+    border-top: 5px solid aqua;
+}

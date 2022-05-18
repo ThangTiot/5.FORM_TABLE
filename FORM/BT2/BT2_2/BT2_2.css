@@ -1,0 +1,24 @@
+div {
+    height: 100%;
+    width: 400px;
+    background-color: #fdff5a;
+    padding: 10px;
+    line-height: 25px;
+}
+
+th {
+    text-align: left;
+    color: blue;
+    background-color: aqua;
+    width: 400px;
+}
+ .text, .address{
+     color: blue;
+     width: 100px;
+ }
+ /*td{*/
+ /*    border: 2px solid red;*/
+ /*}*/
+.address {
+    vertical-align: top;
+}

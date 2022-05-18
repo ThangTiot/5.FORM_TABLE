@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TH1</title>
+    <link rel="stylesheet" href="TH1.css">
+</head>
+<body>
+<div id="main">
+<form action="THUCHANH1.html" method="get">
+    <h1>Order Form</h1>
+
+    <p>What would you like to buy</p>
+
+    <select name="select">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+    </select>
+
+    <p>How many would you like to order?</p>
+
+    <input type="radio" id="od1" name="od">
+    <label for="od1">1-$10</label><br>
+    <input type="radio" id="od2" name="od">
+    <label for="od2">2-$20</label><br>
+    <input type="radio" id="od3" name="od">
+    <label for="od3">3-$30</label>
+
+    <p>Name <span style="color: red">*</span></p>
+    <input type="text" name="fistname" placeholder="FistName">
+    <input type="text" name="lastname" placeholder="LastName">
+
+    <p>Email</p>
+    <input type="email" name="email" size="30px">
+
+    <p>Phone Number <span style="color: red">*</span></p>
+    <input class="phone" type="number" name="pnum1"> -
+    <input class="phone" type="number" name="pnum2"> -
+    <input class="phone" type="number" name="pnum3">
+    <br>
+    <input id="submit" type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

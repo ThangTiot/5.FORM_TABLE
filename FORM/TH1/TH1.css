@@ -1,0 +1,24 @@
+#main {
+    width: 30%;
+    padding: 10px;
+    border-style: solid;
+    border-color: aqua;
+    /*background-color: red;*/
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.phone {
+    width: 40px;
+}
+
+#submit {
+    margin-top: 20px;
+    padding: 5px
+}
+#submit:hover {
+    background-color: red;
+}

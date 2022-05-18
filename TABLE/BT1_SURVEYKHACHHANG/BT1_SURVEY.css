@@ -1,0 +1,31 @@
+body {
+    line-height: 25px;
+}
+th {
+    text-align: left;
+    width: 350px;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    width: 150px;
+    border: 1px solid black;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(1) {
+    background-color: darkcyan;
+    font-size: 15px;
+    line-height: 40px;
+}
+tr:nth-child(3) {
+    background-color: aquamarine;
+    font-size: 15px;
+}
+#submit {
+    margin-top: 10px;
+    padding: 5px;
+}

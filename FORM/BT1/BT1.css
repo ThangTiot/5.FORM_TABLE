@@ -1,0 +1,27 @@
+.label1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.label {
+    margin-top: 10px;
+}
+
+#main {
+    margin: 20px;
+    margin-right: 80%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#submit {
+    margin-top: 10px;
+    height: 30px;
+}
+body {
+    font-family: Arial;
+}
+#submit:hover {
+    background-color: red;
+    color: white;
+}
